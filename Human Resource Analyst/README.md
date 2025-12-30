@@ -20,19 +20,21 @@ The project is organized to ensure transparency and reproducibility of the analy
 3.  **Feature Engineering**: Derived new metrics to better quantify employee engagement and flight risk.
 4.  **Insight Generation**: Identifying actionable trends to help reduce unwanted attrition.
 
-## 🚀 Key Insights (Summary)
-* **Attrition Drivers**: Identification of the primary factors leading to employee departures.
-* **Departmental Performance**: Comparative analysis of productivity and satisfaction levels across different business units.
-* **Compensation Analysis**: Evaluating the relationship between salary brackets and employee loyalty.
+### Key Insights from Employee Retention Analysis:
+1. **Total Attrition**: Out of 311 employees, 104 have left the company (33% Attrition Rate).
+2. **Departmental Impact**: The **Production** department experiences the highest turnover rate, while the **Sales** department maintains a relatively stable retention rate compared to other technical roles.
+3. **Primary Exit Drivers**: The top reasons for employee termination include "Another position," "Unhappy," and "More money," as identified through the Top N analysis of termination reasons.
+4. **Tenure Analysis**: Most employees who resigned had a specific tenure range, with recruitment sources like Google Search and LinkedIn showing different average employee lifespans.
 
 ## 💻 How to Use
 1.  **Clone the repository**:
     ```bash
-    git clone [your-repository-link]
+    git clone [https://www.kaggle.com/datasets/rhuebner/human-resources-data-set]
     ```
 2.  **Explore the Analysis**: Navigate to the `notebooks/` folder to view the full analytical workflow.
 3.  **Review the Data**: The cleaned datasets are available in `data/processed/` for further experimentation.
 
 ---
-**Author**: [Your Name/GitHub Username]  
+**Author**: [SyakirWorks-ui]  
 **Tools Used**: Python (Pandas, Matplotlib, Seaborn), Jupyter Notebook.
+
